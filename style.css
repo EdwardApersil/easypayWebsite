@@ -10,10 +10,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     justify-content: space-evenly;
-    background-color: aquamarine;
+    background-color: rgba(18, 19, 19, 0.512);
     padding: 2rem;
     border-bottom: 3px solid white;
     position: static;
+    color: white;
 }
 
 .nav-toggle{
@@ -23,7 +24,7 @@
 .container a{
     text-decoration: none;
     padding: 10px 15px;
-    color: rgb(0, 0, 0);
+    color: rgb(241, 241, 241);
 }
 
 .logo p{
@@ -47,15 +48,12 @@
 }
 
 .hero-section{
-    /* color: rgb(2, 2, 2);
-    padding: 4rem;
-    display: flex;
-    background-color: aquamarine; */
     text-align: center;
     display: flex;
     justify-content: space-evenly;
     width: auto 0;
-    background-color: aquamarine;
+    background-color: rgba(18, 19, 19, 0.465);
+    color: white;
 }
 
 .hero-section h1{
@@ -94,7 +92,7 @@
     font-size: 17px;
     margin: 10px;
     width: 200px;
-    box-shadow: -5px 7px 7px -5px aqua;
+    box-shadow: -5px 7px 7px -5px rgb(7, 7, 7);
 } 
 
 .hero-btn button:hover{
@@ -212,11 +210,11 @@
 
 /* Call to action section */
 .cta{
-    background-color: aquamarine;
+    background-color: rgba(18, 19, 19, 0.465);
     text-align: center;
     padding: 2rem;
     /* margin: 5rem; */
-    color: black;
+    color: white;
 }
 .cta button{
     margin-top: 15px;
@@ -229,6 +227,7 @@
     font-weight: bold;
     font-size: 17px;
     width: 200px;
+    box-shadow: -5px 7px 7px -5px rgb(14, 31, 31);
 }
 
 .cta h3{
@@ -268,9 +267,9 @@
  /* ================================================================= */
 form{
     text-align: center;
-    color: black;
+    color: white;
     /* margin: 3rem; */
-    background-color: aquamarine;
+    background-color: rgba(18, 19, 19, 0.465);
     padding: 1rem;
     
 }
@@ -285,7 +284,7 @@ form h3{
 input{
     margin: 7px;
     padding: 10px;
-    width: 200px;
+    width: 500px;
     border-radius: 8px;
     border: none;
     box-shadow: -5px 7px 7px -5px rgb(13, 29, 29);
@@ -294,6 +293,7 @@ input{
     margin: 10px;
     border-radius: 8px;
     box-shadow: -5px 7px 7px -5px rgb(16, 33, 33);
+    width: 500px;
 }
 
 form button{
