@@ -412,10 +412,10 @@ Navbar
 }
 
 .card{
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     margin: 7px;
-    color: white;
+    color: rgb(20, 20, 20);
 }
 
 .services h2{
@@ -458,7 +458,6 @@ Navbar
 
 #form{
     text-align: center;
-    background-color: aquamarine;
     border-radius: 10px;
     padding: 10px;
 }
@@ -533,9 +532,10 @@ Navbar
 
     #service{
         display: flex;
-        background-color: rgb(212, 145, 145);
+        background-color: var(--red-dark);
         color: black;
         border-radius: 10px;
+        padding: 5rem;
     }
 
     .services p{
@@ -561,7 +561,6 @@ Navbar
 
     #form{
         text-align: center;
-        background-color: aquamarine;
         border-radius: 10px;
         padding: 10px;
         margin-top: 3rem;
@@ -571,19 +570,25 @@ Navbar
         margin: 8px;
         border: none;
         border-radius: 7px;
-        padding: 11px;
-        width: 400px;
+        padding: 13px;
+        width: 500px;
+        box-shadow: -5px 7px 7px -5px rgb(13, 29, 29);
     }
 
     #form textarea{
         border-radius: 7px;
         border: none;
-        width: 400px;
+        width: 500px;
+        box-shadow: -5px 7px 7px -5px rgb(13, 29, 29);
     }
 
     .footer{
         display: flex;
         justify-content: space-between;
+        background-color: var(--red-dark);
+        color: white;
+        border: 10px;
+        padding: 6rem;
     }
     .footer h4{
         font-size: 17px;
@@ -605,8 +610,9 @@ Navbar
         font-size: 15px;
         display: flex;
         margin: 0;
+        color: white;
     }
-    .downloads {
+    .downloads a {
         margin-top: 0;
         /* font-size: 10px; */
     }
@@ -614,23 +620,35 @@ Navbar
     .footer .fa-brands{
         font-size: 20px;
         display: flex;
+        color: white;
     }
 
     .social{
         margin-top: 0;
+        color: white;
+    }
+    .links{
+        color: white;
     }
 
     .social a{
         display: inline-block;
         margin: 5px;
+        color: white;
     }
 
     .last-foot{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        background-color: var(--red-dark);
+        color: white;
+       
+    }
+    .last-foot a{
+        color: white;
     }
     .creator a{
-        color: black;
+        color: rgb(255, 255, 255);
     }
 
     .creator a:hover{
