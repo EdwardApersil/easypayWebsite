@@ -391,6 +391,10 @@ Navbar
 
 }
 
+.hero-btn button  span{
+  color: white;
+}
+
 .trusted{
     text-align: center;
     font-size: 10px;
@@ -412,10 +416,11 @@ Navbar
 }
 
 .card{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(237, 237, 237, 0.98);
     border-radius: 10px;
-    margin: 7px;
+    margin: 13px;
     color: rgb(20, 20, 20);
+    /* padding: 7px; */
 }
 
 .services h2{
@@ -430,7 +435,7 @@ Navbar
     border-radius: 10px;
     background-color: green;
     color: white;
-    margin: 5px;
+    margin: 7px;
 }
 .card span{
     text-align: center;
@@ -440,6 +445,9 @@ Navbar
 .cta{
     text-align: center;
     margin-top: 2rem;
+    background-color: var(--red-dark);
+    padding: 7px;
+    color: white;
 }
 
 .cta button{
@@ -460,6 +468,8 @@ Navbar
     text-align: center;
     border-radius: 10px;
     padding: 10px;
+    background-color: var(--red-dark);
+    color: white;
 }
 
 #form input{
@@ -467,6 +477,7 @@ Navbar
     border: none;
     border-radius: 7px;
     padding: 7px;
+    width: 200px;
 }
 
 #form textarea{
@@ -503,6 +514,18 @@ Navbar
     margin: 2rem;
 }
 
+.creator{
+  font-size: 14px;
+  width: 200px;
+  text-align: center;
+  margin-left: 4rem;
+}
+
+.downloads{
+  text-align: center;
+  font-size: 15px;
+}
+
 @media screen and (min-width: 992px) {
     .hero-section{
         display: flex;
@@ -518,7 +541,10 @@ Navbar
     }
 
     .trusted{
-        margin-top: 3rem;
+        margin-top: 4rem;
+        background-color: rgba(237, 237, 237, 0.98);
+        border-radius: 10px;
+        padding: 3rem;
     }
 
     .trusted h2{
@@ -541,17 +567,32 @@ Navbar
     .services p{
         text-align: center;
         margin-left: 15rem;
+        font-size: 15px;
     }
+
+    .services h2{
+      font-size: 40px;
+      font-weight: bold;
+    }
+
     .card span{
         text-align: center;
         font-size: 50px;
     }
     .cta {
-        margin-top: 3rem;
+        margin-top: 4rem;
+        background-color: rgba(237, 237, 237, 0.98);
+        border-radius: 10px;
+        padding: 3rem;
     }
     .cta  p{
         text-align: center;
         margin-left: 15rem;
+    }
+
+    .cta h3{
+      font-size: 40px;
+      font-weight: bold;
     }
 
     #testimonials{
@@ -563,7 +604,11 @@ Navbar
         text-align: center;
         border-radius: 10px;
         padding: 10px;
-        margin-top: 3rem;
+        margin-top: 4rem;
+        background-color: rgba(237, 237, 237, 0.98);
+        border-radius: 10px;
+        padding: 3rem;
+        color: black;
     }
 
     #form input{
@@ -644,7 +689,7 @@ Navbar
         color: white;
        
     }
-    .last-foot a{
+    .downloads a{
         color: white;
     }
     .creator a{
@@ -654,6 +699,7 @@ Navbar
     .creator a:hover{
         color: #0f172a;
     }
+
 }
 
 
