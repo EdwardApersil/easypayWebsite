@@ -5,6 +5,8 @@
     position: relative;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+
 /* Navigation section */
 .nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -15,6 +17,9 @@
     border-bottom: 3px solid white;
     position: static;
     color: white;
+    width: 90vw;
+    max-width: 1120px;
+    margin-left: 5rem;
 }
 
 .nav-toggle{
@@ -45,6 +50,9 @@
 
 #hero{
     background-color: red;
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .hero-section{
@@ -54,6 +62,9 @@
     width: auto 0;
     background-color: rgba(0, 0, 0, 0.465);
     color: white;
+    /* width: 90vw;
+    max-width: 1120px;
+    margin-left: 5rem; */
 }
 
 .hero-section h1{
@@ -110,6 +121,12 @@
 
 /* Partners */
 
+#trust{
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
 .truested{
     text-align: center;
     margin: 2rem;
@@ -145,10 +162,16 @@
     text-align: center;
     margin: 1rem;
     width: 0 auto;
+    /* width: 90vw;
+    max-width: 1120px;
+    margin-left: 5rem; */
 }
 
 #all-services{
     margin: 3rem;
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0 auto;
 }
 
 .services{
@@ -171,7 +194,10 @@
     border-radius: 10px;
     opacity: 0.8;
     color: rgb(0, 0, 0);
-    box-shadow: -5px 6px 6px -5px aqua;
+    box-shadow: -5px 4px 4px -5px aqua;
+    display: grid;
+    gap: 2rem 1rem;
+    padding-bottom: 3rem;
 }
 
 .card h3{
@@ -182,11 +208,11 @@
 
 .card:hover{
     background-color: rgba(240, 226, 226, 0.17);
-    transform: 1s;
+    /* transform: 1s; */
     color: rgb(0, 0, 0);
     opacity: 0.8;
-    margin-top: 10px;
-    border: 2px solid grey;
+    /* margin-top: 10px; */
+    border: 0.5px solid grey;
 }
 
 .card button{
@@ -209,12 +235,20 @@
 
 
 /* Call to action section */
+#cta{
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0 auto;
+}
 .cta{
     background-color: rgba(18, 19, 19, 0.465);
     text-align: center;
     padding: 2rem;
     /* margin: 5rem; */
     color: white;
+    /* width: 90vw;
+    max-width: 1120px;
+    margin-left: 5rem; */
 }
 .cta button{
     margin-top: 15px;
@@ -254,6 +288,11 @@
 
 /* ================================================================= */
 
+#testimonials{
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0 auto;
+}
 #testimonials span{
     font-size: 50px;
 }
@@ -265,13 +304,17 @@
 /* Forms section */
 
  /* ================================================================= */
+ #about{
+    width: 90vw;
+    max-width: 1120px;
+    margin: 0 auto;
+ }
 form{
     text-align: center;
     color: white;
     /* margin: 3rem; */
     background-color: rgba(18, 19, 19, 0.465);
     padding: 1rem;
-    
 }
 
 form h3{
@@ -294,6 +337,10 @@ input{
     border-radius: 8px;
     box-shadow: -5px 7px 7px -5px rgb(16, 33, 33);
     width: 500px;
+}
+
+#text::placeholder{
+   margin-left: 5px;
 }
 
 form button{
@@ -328,13 +375,19 @@ form button:hover{
     justify-content: space-evenly;
     padding: 4rem;
     background-color: rgb(255, 255, 255);
-    
+    width: 90vw;
+    max-width: 1120px;
+    margin: auto 0;
 }
 
 .fa-brands{
     color: black;
     font-size: 30px;
     margin: 3px;
+}
+
+.fa-brands:hover{
+    color: rgba(33, 51, 45, 0.567);
 }
 
 .about{
@@ -383,12 +436,21 @@ footer h4{
     /* background-color: aquamarine; */
     padding: 10px;
 }
+
+.creator a{
+    text-decoration: none;
+    color: black;
+}
+
+.creator a:hover{
+    color: rgba(27, 39, 35, 0.425);
+}
 /* End footer section */
 
 /* ================================================================= */
 /* Media queries */
 
-@media (max-width: 768px){
+/* @media (max-width: 780px) {
     body{
         margin: 0;
         padding: 0;
@@ -399,7 +461,7 @@ footer h4{
         display: none;
     } */
 
-    .container{
+    /* .container{
         display: none;
     }
     .nav-toggle {
@@ -441,6 +503,12 @@ footer h4{
         left: 40px;
     }
 
+    .hero-content h1{
+        font-size: 35px;
+        top: 0;
+        bottom: 20px;
+    }
+
     .hero-btn button{
         font-size: 15px;
         padding: 7px;
@@ -465,5 +533,5 @@ footer h4{
         text-align: center;
         margin-left: 10px;
     }
-}
-    
+} */
+     
