@@ -311,7 +311,7 @@ Navbar
 }
 
 .nav-links:hover{
-    color: var(--primary-500);
+    color: var(--red-dark);
 }
 
 @media screen and (min-width: 992px) {
@@ -513,6 +513,11 @@ Navbar
         width: 400px;
     }
 
+    .logo p{
+        font-size: 25px;
+        border-bottom: 2px solid var(--red-dark);
+    }
+
     .trusted{
         margin-top: 3rem;
     }
@@ -582,16 +587,28 @@ Navbar
     }
     .footer h4{
         font-size: 17px;
+        margin-top: 0
+    }
+    .about{
+        margin-top: 0;
     }
 
+    
+    .footer .fa:hover{
+        color: rgba(0, 0, 0, 0.349);
+    }
+
+    .about p{
+        width: 400px;
+    }
     .footer a{
         font-size: 15px;
         display: flex;
         margin: 0;
     }
-    .downloads{
-        /* display: flex; */
-        font-size: 10px;
+    .downloads {
+        margin-top: 0;
+        /* font-size: 10px; */
     }
 
     .footer .fa-brands{
@@ -603,9 +620,21 @@ Navbar
         margin-top: 0;
     }
 
-    .social .fa-brands{
+    .social a{
         display: inline-block;
-        border: 2px solid black;
+        margin: 5px;
+    }
+
+    .last-foot{
+        display: flex;
+        justify-content: space-between;
+    }
+    .creator a{
+        color: black;
+    }
+
+    .creator a:hover{
+        color: #0f172a;
     }
 }
 
