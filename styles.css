@@ -351,6 +351,7 @@ Navbar
     width: 90vw;
     max-width: var(--max-width);
     margin: 0 auto;
+    transition: 1.5s;
 }
 
 .page{
@@ -371,6 +372,7 @@ Navbar
     color: white;
     border-radius: 10px;
     padding: 10px;
+    transition: 1s;
 }
 .hero-content{
     text-align: center;
@@ -391,6 +393,11 @@ Navbar
 
 }
 
+.hero-section button:hover{
+  background-color: white;
+  color: var(--red-dark);
+}
+
 .hero-btn button  span{
   color: white;
 }
@@ -399,6 +406,7 @@ Navbar
     text-align: center;
     font-size: 10px;
     margin-top: 10px;
+    transition: 1s;
 }
 .trusted h2 {
     font-size: 30px;
@@ -413,6 +421,12 @@ Navbar
 
 #all-services{
     text-align: center;
+    transition: 1s;
+}
+
+#service button:hover{
+  background-color: var(--red-dark);
+  color: white;
 }
 
 .card{
@@ -461,8 +475,11 @@ Navbar
     margin: 5px;
 }
 
+
+
 #testimonials{
     text-align: center;
+    transition: 1s;
 }
 
 #form{
@@ -471,6 +488,7 @@ Navbar
     padding: 10px;
     background-color: var(--red-dark);
     color: white;
+    transition: 1s;
 }
 
 #form input{
@@ -496,6 +514,16 @@ Navbar
     margin: 5px;
 }
 
+button:hover{
+  background-color: white;
+  color: var(--red-dark);
+}
+
+#form button:hover{
+  background-color: white;
+  color: var(--red-dark);
+}
+
 #text{
   padding: 10px;
 }
@@ -503,6 +531,7 @@ Navbar
 .footer{
     text-align: center;
     margin-top: 2rem;
+    transition: 1s;
 }
 
 .about{
@@ -540,6 +569,12 @@ Navbar
         width: 400px;
     }
 
+    .hero-section button:hover{
+      background-color: white;
+      color: var(--red-dark);
+      cursor: pointer;
+    }
+
     .logo p{
         font-size: 25px;
         border-bottom: 2px solid var(--red-dark);
@@ -559,6 +594,13 @@ Navbar
     .trusted  .fa-brands{
         font-size: 60px;
         margin: 2rem;
+        
+    }
+
+    .trusted  .fa-brands:hover{
+      transition: 1s;
+      transform:matrix(360deg);
+      color: var(--red-dark);
     }
 
     #service{
@@ -633,6 +675,18 @@ Navbar
         padding: 13px;
         width: 500px;
         box-shadow: -5px 7px 7px -5px rgb(13, 29, 29);
+    }
+
+    button:hover{
+      background-color: var(--red-dark);
+      color: white;
+      cursor: pointer;
+    }
+
+    #form button:hover{
+      background-color: var(--red-dark);
+      color: white;
+      cursor: pointer;
     }
 
     #form textarea{
